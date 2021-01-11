@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+.body-area {
+  display: flex;
+  direction: column;
+  flex: 1 1 0;
+}
+nav {
+  display: flex;
+  direction: column;
+  height: 100%;
+  width: 20rem;
+  background-color: teal;
+  padding: 1rem;
+}
+.upper-list {
+  list-style: none;
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+}
+.friend-list {
+  list-style: none;
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  padding-left: 10px;
+}
+.main-body {
+  background: blue;
+  height: 100;
+  width: 100%;
+}
